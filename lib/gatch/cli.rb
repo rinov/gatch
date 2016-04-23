@@ -10,7 +10,7 @@ module Gatch
 		method_option :version, aliases: '-v', desc: 'version information.'
 		def default()
 			if options[:version]
-				puts "v1.0.1"
+				puts "v1.0.4"
 			else
 				puts "Usuage: gatch [command] [option]"
 			end
@@ -22,7 +22,7 @@ module Gatch
 		end
 		
 		desc 'run','run gatch'
-		def start()
+		def run()
 			system("gulp")
 		end
 
