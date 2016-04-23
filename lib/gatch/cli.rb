@@ -18,12 +18,10 @@ module Gatch
 		
 		desc 'init','set up gatch'
 		def init()
-			system("mkdir gatch")
-			system("cd gatch")
-			system("git clone https://github.com/rinov/gatch")
+			system("git clone https://github.com/rinov/gatch-gulp")
 		end
 		
-		desc 'start','start gatch'
+		desc 'run','run gatch'
 		def start()
 			system("gulp")
 		end
