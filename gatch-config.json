@@ -1,0 +1,8 @@
+{
+	"target":"../index.html",
+	"watch":[
+	"../index.html",
+	"../css/*.css",
+	"../js/*.js"
+	]
+}
