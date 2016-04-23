@@ -21,8 +21,8 @@ module Gatch
 			system("git clone https://github.com/rinov/gatch-gulp")
 		end
 		
-		desc 'run','run gatch'
-		def run()
+		desc 'start','run gatch'
+		def start()
 			system("gulp")
 		end
 
