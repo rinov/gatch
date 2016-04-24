@@ -2,8 +2,11 @@
 This is a very lightweight and effective tool when you creating a web site.
 
 Function:
+
 -Launch web server on local environment.
+
 -Livereload
+
 -Browser synchronization on multiple device.
 
 Gatch use Node.js(gulp) and Ruby.
