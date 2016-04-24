@@ -10,7 +10,7 @@ module Gatch
 		method_option :version, aliases: '-v', desc: 'version information.'
 		def default()
 			if options[:version]
-				puts "v1.0.4"
+				puts "v1.0.5"
 			else
 				puts "Usuage: gatch [command] [option]"
 			end

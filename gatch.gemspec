@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Ryo Ishikawa"]
   spec.email         = ["ryo31330023@gmail.com"]
 
-  spec.summary       = %q{gatch is a livereload tool.}
-  spec.description   = %q{It can preview your web side when you work on local environment.}
-  spec.homepage      = "https://github.com/rinov"
+  spec.summary       = %q{This is a very lightweight and effective tool when you creating a web site.}
+  spec.description   = %q{This is a very lightweight and effective tool when you creating a web site.}
+  spec.homepage      = "https://github.com/rinov/gatch"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
