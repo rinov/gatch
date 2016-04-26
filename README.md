@@ -1,4 +1,15 @@
 # Gatch
+This is a very lightweight and effective tool when you creating a web site.
+
+Function:
+
+-Launch web server on local environment.
+
+-Livereload
+
+-Browser synchronization on multiple device.
+
+Gatch use Node.js(gulp) and Ruby.
 
 ## Installation
 
@@ -28,14 +39,16 @@ Set up:
     $ gatch init
 
 Starting gatch:
-    $ gatch run
+    $ gatch start
 
 Cheking version:
     $ gatch -v
+    
+After you perform `gatch init` command ,Please read README.md in you current directory.
 
 ## Development
 
-After move your working directory, run `gatch init` to install dependencies. Then, modify `gatch-config.json` to your information. After you set up gatch-config.json , you can run gatch on browser by `gatch run` command.
+After move your working directory, run `gatch init` to install dependencies. Then, modify `gatch-config.json` to your information. After you set up gatch-config.json , you can run gatch on browser by `gatch start` command.
 
 
 ## Contributing
