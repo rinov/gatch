@@ -1,15 +1,15 @@
 # Gatch
 This is a very lightweight and effective tool when you creating a web site.
 
-Function:
+*Functions:*
 
--Launch web server on local environment.
+- Launch web server on local environment.
 
--Livereload
+- Livereload
 
--Browser synchronization on multiple device.
+- Browser synchronization on multiple device.
 
-Gatch use Node.js(gulp) and Ruby.
+Gatch is using Node.js and Ruby.
 
 ## Installation
 
@@ -29,22 +29,25 @@ Or install it yourself as:
 
 After install gatch,if you not have nodejs ,npm and git:
 
-    $ sudo yum -y install nodejs npm
-    $ sudo npm install gulp -g
-    $ sudo yum install git
+    $ brew install nodejs npm
+    $ brew install gulp
+    $ brew install git
 
 ## Usage
 
 Set up:
+
     $ gatch init
 
 Starting gatch:
+
     $ gatch start
 
 Cheking version:
+
     $ gatch -v
     
-After you perform `gatch init` command ,Please read README.md in you current directory.
+After performing `gatch init` command ,Please read README.md in you current directory.
 
 ## Development
 
