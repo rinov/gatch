@@ -1,11 +1,11 @@
 # Gatch
-This is a very lightweight and effective tool when you creating a web site.
+Gatch is a very lightweight and effective tool when you creating a web site.
 
 *Functions:*
 
 - Launch web server on local environment.
 
-- Livereload
+- LiveReload
 
 - Browser synchronization on multiple device.
 
@@ -56,7 +56,7 @@ After move your working directory, run `gatch init` to install dependencies. The
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/rinov/gatch. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/rinov/gatch. 
 
 ## License
 
