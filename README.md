@@ -27,7 +27,7 @@ Or install it yourself as:
 
     $ gem install gatch
 
-After install gatch,if you not have nodejs ,npm and git:
+After install gatch,if you not have Node.js and git:
 
     $ brew install nodejs npm
     $ brew install gulp
@@ -47,11 +47,11 @@ Cheking version:
 
     $ gatch -v
     
-After performing `gatch init` command ,Please read README.md in you current directory.
+After performing `gatch init` command ,Please read README.md in your current directory.
 
 ## Development
 
-After move your working directory, run `gatch init` to install dependencies. Then, modify `gatch-config.json` to your information. After you set up gatch-config.json , you can run gatch on browser by `gatch start` command.
+After move your working directory, run `gatch init` to install dependencies. Then, modify `gatch-config.json` to your information. After you set up gatch-config.json , you can run `gatch start` command.Then, launching a server on your browser.
 
 
 ## Contributing
